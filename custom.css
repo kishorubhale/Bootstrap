@@ -1,0 +1,8 @@
+.customdiv{
+    margin: 3px;
+    min-height: 300px;
+    background-color: red;
+    text-align: center;
+    font-size: larger;
+    color: white;
+}
