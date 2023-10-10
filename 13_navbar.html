@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Navbar</title>
+    <link
+    rel="stylesheet"
+    href="node_modules/bootstrap/dist/css/bootstrap.min.css"
+  />
+  <style>
+    footer{
+        text-align: center;
+        position: fixed;
+        bottom: 0px;
+        width: 100%;
+    }
+p{
+    margin-bottom: 0px;
+}
+body{
+  background-image: url(/asset/india.jpeg);
+}
+  </style>
+</head>
+<body>
+        <nav class="navbar navbar-expand-lg  bg-primary">
+            <div class="container-fluid " style="margin-right: 0px;">
+              <a class="navbar-brand" href="#">CodeMind Technology</a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#" onclick="NavigateTo('home')">Home</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#" onclick="NavigateTo('aboutus')">About us</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#" onclick="NavigateTo('contactus')">Contact us</a>
+                  </li>
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      Services
+                    </a>
+                    <ul class="dropdown-menu">
+                      <li><a class="dropdown-item" href="#">MERN Stack Training</a></li>
+                      <li><a class="dropdown-item" href="#">MEAN Stack Training</a></li>
+                      <li><hr class="dropdown-divider" href="#">  &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;IT Support</li>
+                      <li><a class="dropdown-item" href="#">Project Development Training</a></li>
+                    </ul>
+                  </li>
+                  
+                </ul>
+                <form class="d-flex" role="search">
+                  <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                  <button class="btn btn-outline-success" type="submit">Search</button>
+                </form>
+              </div>
+            </div>
+          </nav>
+          <div class="container">
+            <div id="home" class="page" style="display: block;">
+                <h2>Welcome to CODEMIND TECHNOLOGY </h2>
+                <p>CODEMIND TECHNOLOGY is a leading Training and Placement Academy, which is now expanding in more technical trainings and in software development. CodeMind is well known for its Quality Training & good placement track for fresher’s as well as working professional.</p>
+                <div id="carouselExampleIndicators" class="carousel slide">
+                    <div class="carousel-indicators">
+                      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                    </div>
+                    <div class="carousel-inner">
+                      <div class="carousel-item active">
+                        <img src="asset/carousel-1.jpg" class="d-block w-100" alt="...">
+                      </div>
+                      <div class="carousel-item">
+                        <img src="asset/MERN_MEAN.jpg" class="d-block w-100" alt="...">
+                      </div>
+                      <div class="carousel-item">
+                        <img src="asset/carousel-1.jpg" class="d-block w-100" alt="...">
+                      </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+                      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                      <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+                      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                      <span class="visually-hidden">Next</span>
+                    </button>
+                  </div>
+                  <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel" data-interval="1000">
+                    <div class="carousel-inner">
+                      <div class="carousel-item active">
+                        <img src="/asset/camera.jpg" class="d-block w-100" alt="...">
+                      </div>
+                      <div class="carousel-item">
+                        <img src="/asset/camera.jpg" class="d-block w-100" alt="...">
+                      </div>
+                      <div class="carousel-item">
+                        <img src="/asset/camera.jpg" class="d-block w-100" alt="...">
+                      </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
+                      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                      <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="next">
+                      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                      <span class="visually-hidden">Next</span>
+                    </button>
+                  </div>
+            </div>
+            <div id="aboutus" class="page" style="display: none;">
+                <h2>About Us </h2>
+                <p>89% of people learning for professional development report career benefits like getting a promotion, starting a new career<br>
+                    we take pride in the impact our professional development programs have on our learners' careers. In fact, 89% of our learners have reported significant career benefits, such as securing promotions or successfully transitioning to new careers.
+                    Our industry-relevant curriculum, practical hands-on projects, and expert guidance empower individuals to enhance their skills and achieve their professional goals. Join CODEMIND Technology Pune and unlock new career opportunities today.
+                    
+                    </p>
+            </div>
+          </div>
+          <footer>
+            <div class="bg-primary">
+                <p>&copy;2023 CODEMIND TECHNOLOGY. All rights Reserved</p>
+            </div>
+          </footer>
+          <script>
+          function NavigateTo(pageID){
+         var pages=document.getElementsByClassName('page')
+         for (let i = 0; i < pages.length; i++) {
+         if(pages[i].id==pageID){
+                pages[i].style.display="block"
+         }else{
+            pages[i].style.display="none"
+         }
+          } }
+          </script>
+          <script src="./node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+
+
+</body>
+</html>

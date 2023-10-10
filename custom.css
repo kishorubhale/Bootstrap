@@ -3,6 +3,45 @@
     min-height: 300px;
     background-color: red;
     text-align: center;
-    font-size: larger;
+    font-size: large;
     color: white;
+}
+.sidebarcontent{
+    margin: 10px;
+    min-height: 150px;
+    background-color: blue;
+    text-align: center;
+    font-size: large;
+    color: white;
+}
+.sidebarcontent1{
+    margin: 10px;
+    min-height: 40px;
+    background-color: whitesmoke;
+    text-align: center;
+    font-size: large;
+    color: black;
+}
+.maincontent{
+    margin: 10px;
+    min-height: 310px;
+    background-color: red;
+    text-align: center;
+    font-size: large;
+    color: white;
+}
+/* .container-fluid{
+    border: 2px solid gray;
+} */
+img{
+    margin: 10px;
+}
+.fa{
+    margin-left: 20px;
+}
+.faa{
+    margin-left: 600px;
+}
+.faaa{
+    margin-right: 150px;
 }
